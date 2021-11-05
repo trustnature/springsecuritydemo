@@ -51,8 +51,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity httpSecurity) throws Exception {
         httpSecurity.authorizeRequests()
-                .antMatchers("/findaaAll").hasRole("管理员")
-                .antMatchers("/findaaa").hasAnyAuthority("menu:system")
                 .anyRequest().authenticated()
                 .and()//and 方法表示结束当前标签，上下文回到HttpSecurity，开启新一轮的配置
                 .formLogin()
