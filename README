@@ -1,4 +1,5 @@
 Spring security 学习使用
-单体项目 html Jquery
+一个简单的单体项目
+前端 html Jquery
 有权限表、角色表、用户表
-https://www.bilibili.com/video/BV15a411A7kP?p=35
+可用来分析SpringSecurity源码
