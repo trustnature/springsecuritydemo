@@ -1,5 +1,6 @@
 Spring security 学习使用
 一个简单的单体项目
 前端 html Jquery
+后端 SpringBoot mybatis
 有权限表、角色表、用户表
 可用来分析SpringSecurity源码
